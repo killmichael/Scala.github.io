@@ -1,0 +1,252 @@
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face="微软雅黑" size="2" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="exporter-version" content="YXBJ Windows/602988 (zh-CN, DDL); Windows/10.0.0 (Win64); EDAMVersion=V2;"/>
+  <meta name="content-class" content="yinxiang.markdown"/>
+  <style>
+    body, td {
+      font-family: 微软雅黑;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name="510"/>
+
+<div><span><div style="font-size: 14px; margin: 0; padding: 0; width: 100%;"><h1 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 41px; border-bottom: 3px double #999; color: #000; margin-top: 14px;">Scala学习1</h1>
+<div style="line-height: 160%; box-sizing: content-box;"><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">Scala学习1
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">定义变量
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">val和var
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">类型推断定义变量
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">惰性赋值
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">字符串
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">使用双引号
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">插值表达式
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">使用三引号
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">数据类型与操作符
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">==与eq
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">scala类型层次结构
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">条件表达式
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">块表达式
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">循环
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">for表达式
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">嵌套循环
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">守卫
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">for推导式
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">break和continue
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">break
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">continue
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">方法定义
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">递归方法
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">方法参数
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">默认参数
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">带名参数
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">变长参数
+</a></li></ul></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">方法调用方式
+</a><ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333; margin-top: 0; margin-bottom: 0;"><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">后缀调用法
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">中缀调用法
+</a></li><li style="line-height: 160%; box-sizing: content-box; position: relative;"><a style="line-height: 160%; box-sizing: content-box; text-decoration: underline; color: #5286bc;">无括号调用法
+</a></li></ul></li></ul></li></ul></div><h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">定义变量</h2>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">val和var</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">val/var 变量标识：变量类型 = 初始值</code></p>
+<ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333;">
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">val 不可重新赋值；</li>
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">var 可以重新赋值。</li>
+</ul>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val name:String = &quot;Tom&quot;
+val grades:Int = 80
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">类型推断定义变量</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val name = &quot;Tom&quot;
+val grades = 80
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">scala可以自动根据变量的值来推断变量类型。</p>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">惰性赋值</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">lazy val/var 变量名 = 表达式</code><br/>
+在存储SQL语句时，我们不希望在定义的时候就加载它，而只在用到该变量时才加载，这时就需要惰性赋值。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">lazy val sql = 
+&quot;&quot;&quot;
+{SQL语句}
+&quot;&quot;&quot;
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">字符串</h2>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">使用双引号</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">val/var 变量名 = “字符串”</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val name = &quot;hadoop&quot;
+println(name + name.length)
+----------------------------
+&gt;hadoop6
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">插值表达式</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">val/var 变量名 = s&quot;${变量/表达式}字符串&quot;</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val name = &quot;zhangsan&quot;
+val age = 30
+val sex = &quot;male&quot;
+val info = s&quot;name=${name}, age=${age}, sex=${sex}&quot;
+println(info)
+----------------------------
+name=zhangsan, age=30, sex=male
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">使用三引号</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">val/var 变量名 = &quot;&quot;&quot;字符串1 字符串2&quot;&quot;&quot;</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val sql = &quot;&quot;&quot;
+        |   select
+        |       *
+        |   from
+        |       t_user
+        |   where
+        |       name = &quot;zhangsan&quot;
+&quot;&quot;&quot;
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">数据类型与操作符</h2>
+<table style="margin: 2px 0 14px; color: #333; width: auto; border-collapse: collapse; box-sizing: border-box;"><thead style="line-height: 160%; box-sizing: content-box;"><tr style="line-height: 160%; box-sizing: content-box;"><th style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #72777b; border-top: 0; background-color: #7b8184; font-weight: 300; color: #fff; padding-top: 6px;">基础类型</th><th style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #72777b; border-top: 0; background-color: #7b8184; font-weight: 300; color: #fff; padding-top: 6px;">类型说明</th></tr></thead><tbody style="line-height: 160%; box-sizing: content-box;"><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Byte</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">8位带符号整数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Short</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">16位带符号整数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Int</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">32位带符号整数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Long</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">64位带符号整数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Char</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">16位无符号Unicode字符</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">String</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Char类型的序列</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Float</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">32位单精度浮点数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Double</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">64位双精度浮点数</td></tr><tr style="line-height: 160%; box-sizing: content-box;"><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">Boolean</td><td style="line-height: 160%; box-sizing: content-box; padding: 5px 14px 5px 12px; border: 1px solid #eaeaea;">对或错</td></tr></tbody></table>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">所有类型均已大写字母开头。</p>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">==与eq</h2>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">比较两个对象的引用值，使用 <code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">eq</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val str1 = &quot;abc&quot;
+val str2 = str1 + &quot;&quot;
+str1 == str2
+str1.eq(str2)
+-------------------------
+res1: Boolean = true
+res2: Boolean = false
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">scala类型层次结构</h2>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><img src="Scala学习1_files/QQ截图20210330195236.png" type="image/png" data-filename="QQ截图20210330195236.png"/></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val b:Int = null
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">会报错，因为 null 只能赋值给 AnyRef 类型的变量。</p>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">条件表达式</h2>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val sex = &quot;male&quot;
+val result = if(sex == &quot;male&quot;) 1 else 0
+------------------------------
+result: Int = 1
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">块表达式</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">val a = {
+    | println(&quot;1+1&quot;)
+    | 1 + 1
+    | }
+-------------------------
+1+1
+a: Int = 2
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">块表达式的值等于最后一个表达式的值，块中的其他代码也会被执行。</p>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">循环</h2>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">for表达式</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">for(i &lt;- 表达式/数组/集合) {表达式}</code><br/>
+生成1到10的数字：</p>
+<ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333;">
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">val nums = 1.to(10) ----&gt; for(i &lt;- nums)</li>
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">for(i &lt;- 1 to 10)</li>
+</ul>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">嵌套循环</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">for(i &lt;- 1 to 3; j &lt;- 1 to 5){
+        print(&quot;*&quot;); if(j == 5) println(&quot;&quot;)}
+--------------------------------------------------------
+*****
+*****
+*****
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">守卫</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">for 表达式中，可以添加 if 判断语句，这个 if 判断语句就称之为守卫。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">// 打印能够整除3的数字
+for(i &lt;- 1 to 10 if i % 3 == 0) println(i)
+---------------------------------------------------
+3
+6
+9
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">for推导式</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">可以使用 for 推导式生成一个新的集合（yield）。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">//生成一个10、20、30......100的集合
+val v = for(i &lt;- 1 to 10) yield i * 10
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">break和continue</h2>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">在scala中，不能直接使用break/continue，需要scala.util.control包的Break类的breakable和break方法。</p>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">break</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">//打印1-100的数字，如果数字达到50，退出for表达式
+import scala.util.control.Breaks._
+
+breakable{
+    for (i &lt;- 1 to 100) {
+        if (i &gt;= 50) break()
+        else println(i)
+    }
+}
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">continue</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">//打印1-100的数字，如果能整除10，则不打印
+import scala.util.control.Breaks._
+
+for (i &lt;- 1 to 100) {
+    breakable{
+        if (i % 10 == 0) break()
+        else println(i)
+    }
+}
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">方法定义</h2>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def methodName (参数名：参数类型，参数名：参数类型) : [return type] = {
+    // 方法体
+}
+</code></pre>
+<ul style="line-height: 160%; box-sizing: content-box; display: block; list-style-type: disc; padding-left: 30px; margin: 6px 0 10px; color: #333;">
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">参数列表的参数类型不可以省略</li>
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">返回值类型可以省略</li>
+<li style="line-height: 160%; box-sizing: content-box; position: relative;">返回值可以不写 return, 默认为{}块表达式的值</li>
+</ul>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def add(a:Int, b:Int): Int = {
+    | a + b
+    | }
+add(1,2)
+-----------------------------
+Int = 3
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">递归方法</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">注意：定义递归方法不能省略返回值类型</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def m1(num:Int): Int = {}
+    | if (num &lt;= 1) 1 
+    | else m1(num - 1) * num
+    | }
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">方法参数</h2>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">默认参数</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def add(x:Int = 0, y:Int = 0) = x + y
+add()
+---------------------------
+Int = 0
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">带名参数</h3>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def add(x:Int = 0, y:Int = 0) = x + y
+add(x=1)
+---------------------------
+Int = 1
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">变长参数</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">在参数类型后面加一个 * 号，表示参数可以是0个或者多个。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def add(num:Int*) = num.sum
+add(1,2,3,4,5)
+---------------------------
+Int = 15
+</code></pre>
+<h2 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 34px; border-bottom: 1px solid #dbdbdb; color: #333;">方法调用方式</h2>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">后缀调用法</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">对象名.方法名(参数)</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Math.abs(-1)
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">中缀调用法</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><code style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; color: #c1788b; padding: 4px 4px 2px 0; letter-spacing: -.3px;">对象名 方法名 参数</code></p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Math abs -1
+</code></pre>
+<h3 style="line-height: 160%; box-sizing: content-box; font-weight: 700; font-size: 27px; color: #333;">无括号调用法</h3>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">如果方法没有参数，可以省略方法名后面的括号</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">def m3() = println(&quot;hello&quot;)
+m3
+---------
+hello
+</code></pre>
+</div><center style="display:none !important;visibility:collapse !important;height:0 !important;white-space:nowrap;width:100%;overflow:hidden">%23%20Scala%E5%AD%A6%E4%B9%A01%0A%5Btoc%5D%0A%23%23%20%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8F%0A%23%23%23%20val%E5%92%8Cvar%0A%0A%60val%2Fvar%20%E5%8F%98%E9%87%8F%E6%A0%87%E8%AF%86%EF%BC%9A%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%20%3D%20%E5%88%9D%E5%A7%8B%E5%80%BC%60%0A%0A*%20val%20%E4%B8%8D%E5%8F%AF%E9%87%8D%E6%96%B0%E8%B5%8B%E5%80%BC%EF%BC%9B%0A*%20var%20%E5%8F%AF%E4%BB%A5%E9%87%8D%E6%96%B0%E8%B5%8B%E5%80%BC%E3%80%82%0A%0A%60%60%60%0Aval%20name%3AString%20%3D%20%22Tom%22%0Aval%20grades%3AInt%20%3D%2080%0A%60%60%60%0A%0A%23%23%23%20%E7%B1%BB%E5%9E%8B%E6%8E%A8%E6%96%AD%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8F%0A%60%60%60%0Aval%20name%20%3D%20%22Tom%22%0Aval%20grades%20%3D%2080%0A%60%60%60%0Ascala%E5%8F%AF%E4%BB%A5%E8%87%AA%E5%8A%A8%E6%A0%B9%E6%8D%AE%E5%8F%98%E9%87%8F%E7%9A%84%E5%80%BC%E6%9D%A5%E6%8E%A8%E6%96%AD%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%E3%80%82%0A%0A%23%23%23%20%E6%83%B0%E6%80%A7%E8%B5%8B%E5%80%BC%0A%60lazy%20val%2Fvar%20%E5%8F%98%E9%87%8F%E5%90%8D%20%3D%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%60%0A%E5%9C%A8%E5%AD%98%E5%82%A8SQL%E8%AF%AD%E5%8F%A5%E6%97%B6%EF%BC%8C%E6%88%91%E4%BB%AC%E4%B8%8D%E5%B8%8C%E6%9C%9B%E5%9C%A8%E5%AE%9A%E4%B9%89%E7%9A%84%E6%97%B6%E5%80%99%E5%B0%B1%E5%8A%A0%E8%BD%BD%E5%AE%83%EF%BC%8C%E8%80%8C%E5%8F%AA%E5%9C%A8%E7%94%A8%E5%88%B0%E8%AF%A5%E5%8F%98%E9%87%8F%E6%97%B6%E6%89%8D%E5%8A%A0%E8%BD%BD%EF%BC%8C%E8%BF%99%E6%97%B6%E5%B0%B1%E9%9C%80%E8%A6%81%E6%83%B0%E6%80%A7%E8%B5%8B%E5%80%BC%E3%80%82%0A%60%60%60%0Alazy%20val%20sql%20%3D%20%0A%22%22%22%0A%7BSQL%E8%AF%AD%E5%8F%A5%7D%0A%22%22%22%0A%60%60%60%0A%0A%23%23%20%E5%AD%97%E7%AC%A6%E4%B8%B2%0A%23%23%23%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%BC%95%E5%8F%B7%0A%60val%2Fvar%20%E5%8F%98%E9%87%8F%E5%90%8D%20%3D%20%E2%80%9C%E5%AD%97%E7%AC%A6%E4%B8%B2%E2%80%9D%60%0A%60%60%60%0Aval%20name%20%3D%20%22hadoop%22%0Aprintln(name%20%2B%20name.length)%0A----------------------------%0A%3Ehadoop6%0A%60%60%60%0A%23%23%23%20%E6%8F%92%E5%80%BC%E8%A1%A8%E8%BE%BE%E5%BC%8F%0A%60val%2Fvar%20%E5%8F%98%E9%87%8F%E5%90%8D%20%3D%20s%22%24%7B%E5%8F%98%E9%87%8F%2F%E8%A1%A8%E8%BE%BE%E5%BC%8F%7D%E5%AD%97%E7%AC%A6%E4%B8%B2%22%60%0A%60%60%60%0Aval%20name%20%3D%20%22zhangsan%22%0Aval%20age%20%3D%2030%0Aval%20sex%20%3D%20%22male%22%0Aval%20info%20%3D%20s%22name%3D%24%7Bname%7D%2C%20age%3D%24%7Bage%7D%2C%20sex%3D%24%7Bsex%7D%22%0Aprintln(info)%0A----------------------------%0Aname%3Dzhangsan%2C%20age%3D30%2C%20sex%3Dmale%0A%60%60%60%0A%23%23%23%20%E4%BD%BF%E7%94%A8%E4%B8%89%E5%BC%95%E5%8F%B7%0A%60val%2Fvar%20%E5%8F%98%E9%87%8F%E5%90%8D%20%3D%20%22%22%22%E5%AD%97%E7%AC%A6%E4%B8%B21%0A%E5%AD%97%E7%AC%A6%E4%B8%B22%22%22%22%60%0A%60%60%60%0Aval%20sql%20%3D%20%22%22%22%0A%20%20%20%20%20%20%20%20%7C%20%20%20select%0A%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20*%0A%20%20%20%20%20%20%20%20%7C%20%20%20from%0A%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20t_user%0A%20%20%20%20%20%20%20%20%7C%20%20%20where%0A%20%20%20%20%20%20%20%20%7C%20%20%20%20%20%20%20name%20%3D%20%22zhangsan%22%0A%22%22%22%0A%60%60%60%0A%0A%23%23%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%93%8D%E4%BD%9C%E7%AC%A6%0A%0A%7C%20%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B%20%7C%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E%20%20%7C%0A%7C%20---%20%7C%20---%20%7C%0A%7C%20Byte%20%7C8%E4%BD%8D%E5%B8%A6%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0%20%20%7C%0A%7C%20Short%20%7C%2016%E4%BD%8D%E5%B8%A6%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0%20%7C%0A%7C%20Int%20%7C%2032%E4%BD%8D%E5%B8%A6%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0%20%7C%0A%7C%20Long%20%7C%2064%E4%BD%8D%E5%B8%A6%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0%20%7C%0A%7C%20Char%20%7C%2016%E4%BD%8D%E6%97%A0%E7%AC%A6%E5%8F%B7Unicode%E5%AD%97%E7%AC%A6%20%7C%0A%7C%20String%20%7C%20Char%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%BA%8F%E5%88%97%20%7C%0A%7C%20Float%20%7C%2032%E4%BD%8D%E5%8D%95%E7%B2%BE%E5%BA%A6%E6%B5%AE%E7%82%B9%E6%95%B0%20%7C%0A%7C%20Double%20%7C%2064%E4%BD%8D%E5%8F%8C%E7%B2%BE%E5%BA%A6%E6%B5%AE%E7%82%B9%E6%95%B0%20%7C%0A%7C%20Boolean%20%7C%20%E5%AF%B9%E6%88%96%E9%94%99%20%7C%0A%0A%E6%89%80%E6%9C%89%E7%B1%BB%E5%9E%8B%E5%9D%87%E5%B7%B2%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D%E5%BC%80%E5%A4%B4%E3%80%82%0A%23%23%20%3D%3D%E4%B8%8Eeq%0A%E6%AF%94%E8%BE%83%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BC%95%E7%94%A8%E5%80%BC%EF%BC%8C%E4%BD%BF%E7%94%A8%20%60eq%60%0A%60%60%60%0Aval%20str1%20%3D%20%22abc%22%0Aval%20str2%20%3D%20str1%20%2B%20%22%22%0Astr1%20%3D%3D%20str2%0Astr1.eq(str2)%0A-------------------------%0Ares1%3A%20Boolean%20%3D%20true%0Ares2%3A%20Boolean%20%3D%20false%0A%60%60%60%0A%23%23%20scala%E7%B1%BB%E5%9E%8B%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84%0A!%5Bf59913ba07bb51f3da3c8b78fbd49f27.png%5D(en-resource%3A%2F%2Fdatabase%2F512%3A0)%0A%60%60%60%0Aval%20b%3AInt%20%3D%20null%0A%60%60%60%0A%E4%BC%9A%E6%8A%A5%E9%94%99%EF%BC%8C%E5%9B%A0%E4%B8%BA%20null%20%E5%8F%AA%E8%83%BD%E8%B5%8B%E5%80%BC%E7%BB%99%20AnyRef%20%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%98%E9%87%8F%E3%80%82%0A%0A%23%23%20%E6%9D%A1%E4%BB%B6%E8%A1%A8%E8%BE%BE%E5%BC%8F%0A%60%60%60%0Aval%20sex%20%3D%20%22male%22%0Aval%20result%20%3D%20if(sex%20%3D%3D%20%22male%22)%201%20else%200%0A------------------------------%0Aresult%3A%20Int%20%3D%201%0A%60%60%60%0A%23%23%23%20%E5%9D%97%E8%A1%A8%E8%BE%BE%E5%BC%8F%0A%60%60%60%0Aval%20a%20%3D%20%7B%0A%20%20%20%20%7C%20println(%221%2B1%22)%0A%20%20%20%20%7C%201%20%2B%201%0A%20%20%20%20%7C%20%7D%0A-------------------------%0A1%2B1%0Aa%3A%20Int%20%3D%202%0A%60%60%60%0A%E5%9D%97%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%80%BC%E7%AD%89%E4%BA%8E%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%80%BC%EF%BC%8C%E5%9D%97%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E4%BB%A3%E7%A0%81%E4%B9%9F%E4%BC%9A%E8%A2%AB%E6%89%A7%E8%A1%8C%E3%80%82%0A%0A%23%23%20%E5%BE%AA%E7%8E%AF%0A%23%23%23%20for%E8%A1%A8%E8%BE%BE%E5%BC%8F%0A%60for(i%20%3C-%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%2F%E6%95%B0%E7%BB%84%2F%E9%9B%86%E5%90%88)%20%7B%E8%A1%A8%E8%BE%BE%E5%BC%8F%7D%60%0A%E7%94%9F%E6%88%901%E5%88%B010%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%9A%0A%0A*%20val%20nums%20%3D%201.to(10)%20----%3E%20for(i%20%3C-%20nums)%0A*%20for(i%20%3C-%201%20to%2010)%0A%0A%23%23%23%20%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%0A%60%60%60%0Afor(i%20%3C-%201%20to%203%3B%20j%20%3C-%201%20to%205)%7B%0A%20%20%20%20%20%20%20%20print(%22*%22)%3B%20if(j%20%3D%3D%205)%20println(%22%22)%7D%0A--------------------------------------------------------%0A*****%0A*****%0A*****%0A%60%60%60%0A%23%23%23%20%E5%AE%88%E5%8D%AB%0Afor%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%AD%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%B7%BB%E5%8A%A0%20if%20%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5%EF%BC%8C%E8%BF%99%E4%B8%AA%20if%20%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5%E5%B0%B1%E7%A7%B0%E4%B9%8B%E4%B8%BA%E5%AE%88%E5%8D%AB%E3%80%82%0A%60%60%60%0A%2F%2F%20%E6%89%93%E5%8D%B0%E8%83%BD%E5%A4%9F%E6%95%B4%E9%99%A43%E7%9A%84%E6%95%B0%E5%AD%97%0Afor(i%20%3C-%201%20to%2010%20if%20i%20%25%203%20%3D%3D%200)%20println(i)%0A---------------------------------------------------%0A3%0A6%0A9%0A%60%60%60%0A%23%23%23%20for%E6%8E%A8%E5%AF%BC%E5%BC%8F%0A%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%20for%20%E6%8E%A8%E5%AF%BC%E5%BC%8F%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%88yield%EF%BC%89%E3%80%82%0A%60%60%60%0A%2F%2F%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA10%E3%80%8120%E3%80%8130......100%E7%9A%84%E9%9B%86%E5%90%88%0Aval%20v%20%3D%20for(i%20%3C-%201%20to%2010)%20yield%20i%20*%2010%0A%60%60%60%0A%0A%23%23%20break%E5%92%8Ccontinue%0A%E5%9C%A8scala%E4%B8%AD%EF%BC%8C%E4%B8%8D%E8%83%BD%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8break%2Fcontinue%EF%BC%8C%E9%9C%80%E8%A6%81scala.util.control%E5%8C%85%E7%9A%84Break%E7%B1%BB%E7%9A%84breakable%E5%92%8Cbreak%E6%96%B9%E6%B3%95%E3%80%82%0A%23%23%23%20break%0A%60%60%60%0A%2F%2F%E6%89%93%E5%8D%B01-100%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%95%B0%E5%AD%97%E8%BE%BE%E5%88%B050%EF%BC%8C%E9%80%80%E5%87%BAfor%E8%A1%A8%E8%BE%BE%E5%BC%8F%0Aimport%20scala.util.control.Breaks._%0A%0Abreakable%7B%0A%20%20%20%20for%20(i%20%3C-%201%20to%20100)%20%7B%0A%20%20%20%20%20%20%20%20if%20(i%20%3E%3D%2050)%20break()%0A%20%20%20%20%20%20%20%20else%20println(i)%0A%20%20%20%20%7D%0A%7D%0A%60%60%60%0A%23%23%23%20continue%0A%60%60%60%0A%2F%2F%E6%89%93%E5%8D%B01-100%E7%9A%84%E6%95%B0%E5%AD%97%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%83%BD%E6%95%B4%E9%99%A410%EF%BC%8C%E5%88%99%E4%B8%8D%E6%89%93%E5%8D%B0%0Aimport%20scala.util.control.Breaks._%0A%0Afor%20(i%20%3C-%201%20to%20100)%20%7B%0A%20%20%20%20breakable%7B%0A%20%20%20%20%20%20%20%20if%20(i%20%25%2010%20%3D%3D%200)%20break()%0A%20%20%20%20%20%20%20%20else%20println(i)%0A%20%20%20%20%7D%0A%7D%0A%60%60%60%0A%23%23%20%E6%96%B9%E6%B3%95%E5%AE%9A%E4%B9%89%0A%60%60%60%0Adef%20methodName%20(%E5%8F%82%E6%95%B0%E5%90%8D%EF%BC%9A%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%EF%BC%8C%E5%8F%82%E6%95%B0%E5%90%8D%EF%BC%9A%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B)%20%3A%20%5Breturn%20type%5D%20%3D%20%7B%0A%20%20%20%20%2F%2F%20%E6%96%B9%E6%B3%95%E4%BD%93%0A%7D%0A%60%60%60%0A%0A*%20%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8%E7%9A%84%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E4%B8%8D%E5%8F%AF%E4%BB%A5%E7%9C%81%E7%95%A5%0A*%20%E8%BF%94%E5%9B%9E%E5%80%BC%E7%B1%BB%E5%9E%8B%E5%8F%AF%E4%BB%A5%E7%9C%81%E7%95%A5%0A*%20%E8%BF%94%E5%9B%9E%E5%80%BC%E5%8F%AF%E4%BB%A5%E4%B8%8D%E5%86%99%20return%2C%20%E9%BB%98%E8%AE%A4%E4%B8%BA%7B%7D%E5%9D%97%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%80%BC%0A%0A%60%60%60%0Adef%20add(a%3AInt%2C%20b%3AInt)%3A%20Int%20%3D%20%7B%0A%20%20%20%20%7C%20a%20%2B%20b%0A%20%20%20%20%7C%20%7D%0Aadd(1%2C2)%0A-----------------------------%0AInt%20%3D%203%0A%60%60%60%0A%23%23%23%20%E9%80%92%E5%BD%92%E6%96%B9%E6%B3%95%0A%E6%B3%A8%E6%84%8F%EF%BC%9A%E5%AE%9A%E4%B9%89%E9%80%92%E5%BD%92%E6%96%B9%E6%B3%95%E4%B8%8D%E8%83%BD%E7%9C%81%E7%95%A5%E8%BF%94%E5%9B%9E%E5%80%BC%E7%B1%BB%E5%9E%8B%0A%60%60%60%0Adef%20m1(num%3AInt)%3A%20Int%20%3D%20%7B%7D%0A%20%20%20%20%7C%20if%20(num%20%3C%3D%201)%201%20%0A%20%20%20%20%7C%20else%20m1(num%20-%201)%20*%20num%0A%20%20%20%20%7C%20%7D%0A%60%60%60%0A%23%23%20%E6%96%B9%E6%B3%95%E5%8F%82%E6%95%B0%0A%23%23%23%20%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%0A%60%60%60%0Adef%20add(x%3AInt%20%3D%200%2C%20y%3AInt%20%3D%200)%20%3D%20x%20%2B%20y%0Aadd()%0A---------------------------%0AInt%20%3D%200%0A%60%60%60%0A%23%23%23%20%E5%B8%A6%E5%90%8D%E5%8F%82%E6%95%B0%0A%60%60%60%0Adef%20add(x%3AInt%20%3D%200%2C%20y%3AInt%20%3D%200)%20%3D%20x%20%2B%20y%0Aadd(x%3D1)%0A---------------------------%0AInt%20%3D%201%0A%60%60%60%0A%23%23%23%20%E5%8F%98%E9%95%BF%E5%8F%82%E6%95%B0%0A%E5%9C%A8%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E5%90%8E%E9%9D%A2%E5%8A%A0%E4%B8%80%E4%B8%AA%20*%20%E5%8F%B7%EF%BC%8C%E8%A1%A8%E7%A4%BA%E5%8F%82%E6%95%B0%E5%8F%AF%E4%BB%A5%E6%98%AF0%E4%B8%AA%E6%88%96%E8%80%85%E5%A4%9A%E4%B8%AA%E3%80%82%0A%60%60%60%0Adef%20add(num%3AInt*)%20%3D%20num.sum%0Aadd(1%2C2%2C3%2C4%2C5)%0A---------------------------%0AInt%20%3D%2015%0A%60%60%60%0A%23%23%20%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E6%96%B9%E5%BC%8F%0A%23%23%23%20%E5%90%8E%E7%BC%80%E8%B0%83%E7%94%A8%E6%B3%95%0A%60%E5%AF%B9%E8%B1%A1%E5%90%8D.%E6%96%B9%E6%B3%95%E5%90%8D(%E5%8F%82%E6%95%B0)%60%0A%60%60%60%0AMath.abs(-1)%0A%60%60%60%0A%23%23%23%20%E4%B8%AD%E7%BC%80%E8%B0%83%E7%94%A8%E6%B3%95%0A%60%E5%AF%B9%E8%B1%A1%E5%90%8D%20%E6%96%B9%E6%B3%95%E5%90%8D%20%E5%8F%82%E6%95%B0%60%0A%60%60%60%0AMath%20abs%20-1%0A%60%60%60%0A%23%23%23%20%E6%97%A0%E6%8B%AC%E5%8F%B7%E8%B0%83%E7%94%A8%E6%B3%95%0A%E5%A6%82%E6%9E%9C%E6%96%B9%E6%B3%95%E6%B2%A1%E6%9C%89%E5%8F%82%E6%95%B0%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%81%E7%95%A5%E6%96%B9%E6%B3%95%E5%90%8D%E5%90%8E%E9%9D%A2%E7%9A%84%E6%8B%AC%E5%8F%B7%0A%60%60%60%0Adef%20m3()%20%3D%20println(%22hello%22)%0Am3%0A---------%0Ahello%0A%60%60%60%0A</center></span>
+</div></body></html> 
